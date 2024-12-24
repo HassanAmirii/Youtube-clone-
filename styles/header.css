@@ -38,6 +38,7 @@
   font-size: 16px;
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
 }
 .search-bar::placeholder {
   font-size: 16px;
@@ -74,9 +75,12 @@
   margin-top: 4px;
 }
 .right-section {
-  width: 200px;
+  width: 180px;
+  margin-right: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 .upload-button {
   height: 35px;
@@ -103,4 +107,37 @@
 .apps-icon {
   height: 23px;
   margin-top: 4px;
+}
+
+.notifications-button {
+  height: 35px;
+  width: 30px;
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  margin-left: 16px;
+}
+
+.notifications-icon {
+  height: 23px;
+  margin-top: 4px;
+}
+
+.profile-button {
+  height: 35px;
+  width: 35px;
+  margin-left: 16px;
+  border: none;
+  background-color: white;
+  border-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.channel-profile-icon {
+  height: 30px;
+  width: 30px;
+  object-fit: fill;
+  border-radius: 50%;
+  margin-bottom: 7px;
 }
