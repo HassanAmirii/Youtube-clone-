@@ -74,6 +74,33 @@
   margin-top: 4px;
 }
 .right-section {
-  background-color: blueviolet;
   width: 200px;
+  display: flex;
+  align-items: center;
+}
+.upload-button {
+  height: 35px;
+  width: 30px;
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.upload-icon {
+  height: 23px;
+  margin-top: 4px;
+}
+
+.apps-button {
+  height: 35px;
+  width: 30px;
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  margin-left: 16px;
+}
+
+.apps-icon {
+  height: 23px;
+  margin-top: 4px;
 }
