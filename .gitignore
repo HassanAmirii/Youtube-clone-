@@ -1,0 +1,14 @@
+# Ignore all .a files
+*.a
+
+# Ignore all files in the bin directory
+bin/
+
+# Ignore all .txt files in the doc/ directory
+doc/*.txt
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore .env file
+.env
